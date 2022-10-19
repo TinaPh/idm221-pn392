@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "inconsolata";
+    src: url("fonts/Inconsolata-VariableFont.woff2") format(woff2);
+}
+
+:root {
+    --color-light: #FDFFF4;
+    --color-accents: #3C47A6;
+    --color-headfoot: #7C85A4;
+
+    --background: var(--color-light);
+    --backgroundhf: var(--color-headfoot);
+    --highlights: var(--color-accents);
+
+    --font-monospace:"inconsolata", 
+}
+
+body {
+    background-color: var(--background);
+    font-family:inconsolata;
+}
+
+
+.topnav {
+    margin-top: 30px;
+}
+
+.topnav p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.home{
+    text-decoration: none;
+    color: var(--highlights);
+}
+.topimage {
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.topimage img{
+    width: 365px;
+}
+
+.centeredheadline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    font-weight: 700;
+    font-size: 30px;
+}
+.centeredsubheader{
+    transform: translateY(-480%);
+}
+
+.specs span{
+    font-weight: 500;
+}
+
+.specs ul li{
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+.description{
+    margin: 15px;
+    padding-top: 20px;
+}
+.description img {
+    width: 365px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+footer{
+
+}
