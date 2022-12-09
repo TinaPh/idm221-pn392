@@ -13,23 +13,23 @@
     --highlights: var(--color-accents);
 
     --font-monospace:"inconsolata", 
-}
 
+    box-sizing: border-box;
+}
+nav{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
 body {
     background-color: var(--background);
     font-family:inconsolata;
     margin: 20px;
-    display: flex;
 }
 
-.topnav {
-    margin-top: 30px;
-}
-
-.topnav p {
-    font-size: 18px;
-    font-weight: 500;
-    
+main{
+    margin: 15px;
+    padding: 10px;
 }
 
 .intro h1 {
@@ -60,7 +60,7 @@ body {
 }
 
 .works h1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 30px;
     text-align: center;
     line-height: 50px;
@@ -68,7 +68,7 @@ body {
 
 
 .selected {
-    padding-top: 95px;
+    padding-top: 32px;
     justify-content: space-between;
 
 }
@@ -118,6 +118,9 @@ img {
 }
 */ 
 
-.footer {
-    background: var(--color-headfoot);
+
+footer h3{
+   font-weight: 300;
+   line-height: 1.5rem;
+   font-size: 16px;
 }

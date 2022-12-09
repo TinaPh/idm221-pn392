@@ -105,3 +105,39 @@ a.button{
     justify-content: center;
     border-radius: 15px;
 }
+
+.nav{
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+
+.headline{
+    float: left;
+    text-align: center;
+}
+
+.home{
+    float: right;
+    text-align: center;   
+    margin: 1em;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+
+  footer h3{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5rem;
+ }
